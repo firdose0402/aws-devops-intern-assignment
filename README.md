@@ -1,13 +1,37 @@
 # AWS DevOps Engineer Intern Assignment
 
-## Objective
-Deploy a simple website on AWS EC2 using Nginx.
+## Candidate Details
+- Name: Firdose Shaikh
+- Branch: Bsc
+- Email: firdose0402@gmail.com
 
-## AWS Services Used
-- Amazon EC2
-- Security Groups
+## Tasks Completed
 
-## Linux Commands Used
+### Task 1: AWS EC2 Setup
+- Created an Ubuntu EC2 instance.
+- Configured Security Groups (SSH and HTTP).
+- Connected to the instance using SSH.
+
+### Task 2: Linux Basics
+- Updated packages.
+- Installed and configured Nginx.
+- Checked system status, memory, and disk usage.
+
+### Task 3: Website Hosting
+- Created a static HTML page.
+- Hosted the website using Nginx.
+- Accessed the website using the EC2 Public IP.
+
+### Task 4: Git & GitHub
+- Initialized a Git repository.
+- Added project files.
+- Pushed code to GitHub.
+
+### Task 5: Documentation
+- Created a PDF report with screenshots.
+- Prepared the final ZIP file for submission.
+
+## Commands Used
 ```bash
 sudo apt update
 sudo apt install nginx -y
@@ -16,28 +40,20 @@ sudo systemctl restart nginx
 df -h
 free -h
 ps -ef
+git init
+git add .
+git commit -m "AWS DevOps Intern Assignment"
+git push -u origin main
 ```
 
-## Website Deployment Steps
-1. Launch Ubuntu EC2 instance.
-2. Allow ports 22 and 80.
-3. Connect using SSH.
-4. Install Nginx.
-5. Create index.html.
-6. Copy file to /var/www/html/.
-7. Restart Nginx.
-8. Access website via Public IP.
+## Technologies Used
+- AWS EC2
+- Ubuntu Linux
+- Nginx
+- Git & GitHub
 
-## Learnings
-- AWS EC2 basics
-- Linux commands
-- Nginx installation
-- Website hosting on EC2
-- Git and GitHub
+## GitHub Repository
+https://github.com/firdose0402/aws-devops-intern-assignment
 
-## Problems Faced
-- SSH permission issue (if any)
-- Nginx installation issue (if any)
-
-## Author
-Firdose Shaikh
+## Conclusion
+This assignment helped me gain practical experience with AWS, Linux, web hosting, and version control using Git and GitHub.
