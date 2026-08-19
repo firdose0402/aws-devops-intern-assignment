@@ -3,7 +3,7 @@
 ## Candidate Details
 - Name: Firdose Shaikh
 - Branch: Bsc
-- Email: firdose0402@gmail.com
+- Email: ..........
 
 ## Tasks Completed
 
